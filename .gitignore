@@ -1,0 +1,75 @@
+# ─────────────────────────────────────────
+#  ReConnect – Root .gitignore
+# ─────────────────────────────────────────
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+*.egg
+*.egg-info/
+dist/
+build/
+*.whl
+.eggs/
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+.env
+
+# Environment files
+.env
+.env.local
+.env.*.local
+
+# Flask / Werkzeug
+instance/
+.webassets-cache
+
+# Uploads (keep structure, ignore actual uploads)
+backend/uploads/images/*
+!backend/uploads/images/.gitkeep
+
+# Storage data (can be excluded in production; keep seed files)
+# backend/storage/*.json
+
+# pytest / coverage
+.pytest_cache/
+.coverage
+htmlcov/
+*.xml
+
+# Node / Frontend (future)
+node_modules/
+.npm
+dist/
+.next/
+out/
+
+# OS artifacts
+.DS_Store
+Thumbs.db
+desktop.ini
+*.swp
+*.swo
+*~
+
+# IDEs
+.vscode/settings.json
+.idea/
+*.iml
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+
+# Logs
+*.log
+logs/

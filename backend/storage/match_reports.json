@@ -1,0 +1,158 @@
+[
+  {
+    "report_id": "rpt-f29d8e4ec917",
+    "lost_id": "lost-fb3760a4",
+    "found_id": "found-8cb098d2",
+    "lost_item": {
+      "id": "lost-fb3760a4",
+      "type": "lost",
+      "item_name": "Gucci Wallet",
+      "category": "Bags",
+      "color": "Brown",
+      "brand": "Gucci",
+      "description": "gucci velevitta wallet cost around 70 k dollars",
+      "location": "india gate",
+      "date": "2026-07-08",
+      "contact_name": "DINESH JANA",
+      "contact_email": "dineshjana2006@gmail.com",
+      "contact_phone": "",
+      "images": [
+        "lost_026e78565bb1.png"
+      ],
+      "status": "active",
+      "created_at": "2026-07-13T05:39:26Z",
+      "updated_at": "2026-07-13T05:39:26Z"
+    },
+    "found_item": {
+      "id": "found-8cb098d2",
+      "type": "found",
+      "item_name": "Gucci wallet",
+      "category": "Bags",
+      "color": "Brown",
+      "brand": "Gucci",
+      "description": "Valevitta  wallet of gucci",
+      "location": "gate of india",
+      "date": "2026-07-12",
+      "contact_name": "Santanu Samanta",
+      "contact_email": "santanusamanta4187@gmail.com",
+      "contact_phone": "",
+      "images": [
+        "found_b777ea50e74e.png"
+      ],
+      "status": "active",
+      "created_at": "2026-07-13T05:41:21Z",
+      "updated_at": "2026-07-13T05:41:21Z"
+    },
+    "score": 94.5,
+    "score_breakdown": {
+      "category": 30.0,
+      "name": 25.0,
+      "color": 15.0,
+      "location": 10.0,
+      "brand": 10.0,
+      "date": 3.35,
+      "description": 1.11
+    },
+    "matched_fields": [
+      "category",
+      "item_name",
+      "color",
+      "location",
+      "brand",
+      "date"
+    ],
+    "conclusion": {
+      "summary": "This pair has a **94.5% overall confidence score**, indicating a **high-probability match**. The analysis of 6 matching field(s) — including category, item_name, color — strongly suggests these two reports refer to the same item. Immediate contact is recommended.",
+      "matching": [
+        "Both items belong to the same category: **Bags**.",
+        "Item names are highly similar: \"**Gucci Wallet**\" vs \"**Gucci wallet**\".",
+        "Colors match exactly: both described as **Brown**.",
+        "Brand matches: both are **Gucci**.",
+        "Locations overlap significantly: **india gate** and **gate of india**.",
+        "Dates are within a reasonable window: **2026-07-08** (lost) vs **2026-07-12** (found).",
+        "Descriptions have minor keyword overlap."
+      ],
+      "non_matching": [],
+      "confidence_label": "High",
+      "recommendation": "This is a strong match. We strongly recommend reaching out to the other party immediately to verify and arrange collection."
+    },
+    "status": "resolved",
+    "computed_at": "2026-07-13T06:04:07Z",
+    "last_accessed": "2026-07-13T06:04:52Z"
+  },
+  {
+    "report_id": "rpt-c86efcd07331",
+    "lost_id": "lost-006",
+    "found_id": "found-8cb098d2",
+    "lost_item": {
+      "id": "lost-006",
+      "type": "lost",
+      "item_name": "Laptop Backpack",
+      "category": "Bags",
+      "color": "Grey",
+      "brand": "Wildcraft",
+      "description": "Grey Wildcraft laptop backpack (30L). Contains MacBook Air charger, notebooks, and a water bottle. Left it on the metro.",
+      "location": "Metro Station, MG Road",
+      "date": "2026-07-10",
+      "contact_name": "Ananya Singh",
+      "contact_email": "ananya.s@example.com",
+      "contact_phone": "+91-6543210987",
+      "images": [],
+      "status": "active",
+      "created_at": "2026-07-10T18:45:00Z",
+      "updated_at": "2026-07-10T18:45:00Z"
+    },
+    "found_item": {
+      "id": "found-8cb098d2",
+      "type": "found",
+      "item_name": "Gucci wallet",
+      "category": "Bags",
+      "color": "Brown",
+      "brand": "Gucci",
+      "description": "Valevitta  wallet of gucci",
+      "location": "gate of india",
+      "date": "2026-07-12",
+      "contact_name": "Santanu Samanta",
+      "contact_email": "santanusamanta4187@gmail.com",
+      "contact_phone": "",
+      "images": [
+        "found_b777ea50e74e.png"
+      ],
+      "status": "resolved",
+      "created_at": "2026-07-13T05:41:21Z",
+      "updated_at": "2026-07-13T06:04:52Z"
+    },
+    "score": 34.1,
+    "score_breakdown": {
+      "category": 30.0,
+      "name": 0.0,
+      "color": 0.0,
+      "location": 0.0,
+      "brand": 0.0,
+      "date": 4.09,
+      "description": 0.0
+    },
+    "matched_fields": [
+      "category",
+      "date"
+    ],
+    "conclusion": {
+      "summary": "This pair has a **34.1% overall confidence score**, indicating a **low-probability match**. Only a few attributes align between the two reports. This may be a coincidental similarity rather than the same item. Proceed with caution.",
+      "matching": [
+        "Both items belong to the same category: **Bags**.",
+        "Dates are very close — lost on **2026-07-10**, found on **2026-07-12**."
+      ],
+      "non_matching": [
+        "Item names differ: \"**Laptop Backpack**\" vs \"**Gucci wallet**\".",
+        "Color mismatch: **Grey** (lost) vs **Brown** (found).",
+        "Brand mismatch: **Wildcraft** (lost) vs **Gucci** (found).",
+        "Locations differ: lost in **Metro Station, MG Road**, found in **gate of india**."
+      ],
+      "confidence_label": "Low",
+      "recommendation": "This appears to be a weak match. Review the non-matching attributes carefully before contacting the other reporter."
+    },
+    "status": "active",
+    "computed_at": "2026-07-13T06:05:09Z",
+    "last_accessed": "2026-07-13T06:05:09Z"
+  }
+]

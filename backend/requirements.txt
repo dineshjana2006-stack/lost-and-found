@@ -1,0 +1,29 @@
+# ─────────────────────────────────────────────────────────────
+#  ReConnect Backend – Python Dependencies
+#  Install with:  pip install -r requirements.txt
+# ─────────────────────────────────────────────────────────────
+
+# Web framework
+Flask>=3.0.0,<4.0.0
+
+# CORS support
+Flask-Cors>=4.0.0,<5.0.0
+
+# Image processing (resize, thumbnail, format conversion)
+Pillow>=10.0.0,<11.0.0
+
+# Date parsing utilities
+python-dateutil>=2.9.0,<3.0.0
+
+# Secure filename utilities (bundled with Flask via Werkzeug)
+Werkzeug>=3.0.0,<4.0.0
+
+# Production WSGI server
+gunicorn>=22.0.0,<23.0.0
+
+# Testing
+pytest>=8.0.0,<9.0.0
+pytest-flask>=1.3.0,<2.0.0
+
+# Development utilities
+python-dotenv>=1.0.0,<2.0.0
